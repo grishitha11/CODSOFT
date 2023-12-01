@@ -1,5 +1,5 @@
 # CODSOFT
-CALACULATOR
+CALACULATOR:
 This code creates a basic calculator using Python's Tkinter library. Here's a breakdown in simpler terms:
 
 The calculator has buttons for numbers (0-9), arithmetic operations (+, -, *, /), parentheses, a decimal point, delete (D), clear (C), and equals (=).
@@ -14,7 +14,7 @@ The "=" button evaluates the calculation shown in the text area and displays the
 
 If there's an error in the calculation, such as dividing by zero, it shows an "Error" message in the display area.
 
-TO-DO-LIST
+TO-DO-LIST:
 This code creates a simple To-Do List application using Tkinter, a Python GUI library. Here's a breakdown in simpler terms:
 
 The application window appears with a title "To-Do-List" and certain dimensions.
@@ -27,7 +27,7 @@ The code uses functions like add to add tasks to the list and save them in the "
 When the application starts, it reads tasks from the "data.txt" file and displays them in the list.
 Overall, this is a basic To-Do List application allowing users to add tasks, view them in a list, and delete tasks they've completed.
 
-ROCK PAPER SCISSORS GAME
+ROCK PAPER SCISSORS GAME:
 This code creates a simple Rock, Paper, Scissors game using Python's Tkinter for the graphical interface. Here's a breakdown in simpler terms:
 
 The game has a dictionary that defines the winning scenarios for Rock, Paper, and Scissors. It keeps track of scores for the computer and the player.
