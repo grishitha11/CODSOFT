@@ -55,6 +55,28 @@ The application's graphical interface is straightforward, utilizing buttons for 
 
 
 
+PASSWORD GENERATION:
+ChatGPT
+This Python script creates a graphical user interface (GUI) for a password generator using the Tkinter library. The application allows users to generate passwords based on specified criteria.
+
+Upon execution, the program launches a window containing several GUI elements:
+
+"Enter Password Length" Label: Displays a label prompting users to input the desired length for the password.
+Length Entry Field: Allows users to enter the desired length for the password.
+"Select Password Strength" Label: Displays a label instructing users to choose the strength of the password.
+Radio Buttons for Password Strength:
+"Weak": Selects a password composed of lowercase letters.
+"Medium": Generates a password using a combination of letters (both cases) and digits.
+"Strong": Creates a password using a mix of letters (both cases), digits, and special characters.
+"Generate Password" Button: Initiates the password generation process based on the specified length and strength criteria.
+Password Entry Field: Displays the generated password as output, obscuring the characters for security purposes.
+The functionality of the program is driven by the generate_password() function, which retrieves the password length and strength selected by the user. Depending on the strength chosen, it generates a password of the specified length using different character sets (lowercase letters, uppercase letters, digits, and special characters).
+
+Error handling is included to ensure that the password length is at least 4 characters. If the length is less than 4, an error message dialog box is displayed, prompting the user to enter a valid password length.
+
+The graphical interface provides a user-friendly way to generate passwords of varying strengths and lengths, offering flexibility and security in password creation.
+
+
 
 
 
